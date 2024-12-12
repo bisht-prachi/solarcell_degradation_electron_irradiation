@@ -15,17 +15,17 @@ Where:
 - K_L: Diffusion length damage coefficient (for electrons and holes).  
 - phi: Total electron fluence (number of electrons per unit area).  
 
-The provided code simulates the degradation under 1 MeV electron incidence. The parameter \(K_L\) is specific to this energy but can be analytically calculated for other incident energies (\(\leq 10 \, \text{MeV}\)) using the `defectIntroductionRate.py` script.
+The provided code simulates the degradation under 1 MeV electron incidence. The parameter \(K_L\) is specific to this energy but can be analytically calculated for other incident energies <= 10 MeV using the `defectIntroductionRate.py` script.
 
 ---
 
 ## Repository Contents
 
 1. **`iv_kphi_gaas.cpp`**  
-   A C++ program that computes the degraded IV characteristics of a GaAs solar cell under irradiation. The program uses fixed \(K_L\) values for 1 MeV electrons.
+   A C++ program that computes the degraded IV characteristics of a GaAs solar cell under irradiation. The program uses fixed K_L values for 1 MeV electrons.
 
 2. **`defectIntroductionRate.py`**  
-   A Python script to calculate \(K_L\) analytically for any incident energy (\(\leq 10 \, \text{MeV}\)).
+   A Python script to calculate \(K_L\) analytically for any incident energy <= 10 MeV.
 
 ---
 
