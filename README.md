@@ -8,14 +8,12 @@ This repository contains tools to simulate the degradation of GaAs solar cells u
 
 The primary degradation mechanism arises from defect creation at deep levels within the solar cell material. These defects act as recombination centers for minority charge carriers, significantly reducing the minority carrier diffusion length (\(L\)). This reduction is quantified by the diffusion length damage coefficient (\(K_L\)), which is energy-dependent and determines the impact of radiation on \(L\). The relation governing the degraded diffusion length is:
 
-\[
-\frac{1}{L^2} = \frac{1}{L_0^2} + K_L \cdot \phi
-\]
+1/L^2 = 1/Lo^2 + K_L*phi 
 
 Where:  
-- \(L_0\): Initial diffusion length (pre-irradiation).  
-- \(K_L\): Diffusion length damage coefficient (for electrons and holes).  
-- \(\phi\): Total electron fluence (number of electrons per unit area).  
+- Lo: Initial diffusion length (pre-irradiation).  
+- K_L: Diffusion length damage coefficient (for electrons and holes).  
+- phi: Total electron fluence (number of electrons per unit area).  
 
 The provided code simulates the degradation under 1 MeV electron incidence. The parameter \(K_L\) is specific to this energy but can be analytically calculated for other incident energies (\(\leq 10 \, \text{MeV}\)) using the `defectIntroductionRate.py` script.
 
