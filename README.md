@@ -6,7 +6,7 @@ This repository contains tools to simulate the degradation of GaAs solar cells u
 
 ## Overview
 
-The primary degradation mechanism arises from defect creation at deep levels within the solar cell material. These defects act as recombination centers for minority charge carriers, significantly reducing the minority carrier diffusion length (\(L\)). This reduction is quantified by the diffusion length damage coefficient (\(K_L\)), which is energy-dependent and determines the impact of radiation on \(L\). The relation governing the degraded diffusion length is:
+The primary degradation mechanism arises from defect creation at deep levels within the solar cell material. These defects act as recombination centers for minority charge carriers, significantly reducing the minority carrier diffusion length L. This reduction is quantified by the diffusion length damage coefficient K_L, which is energy-dependent and determines the impact of radiation on L. The relation governing the degraded diffusion length is:
 
 1/L^2 = 1/Lo^2 + K_L*phi 
 
